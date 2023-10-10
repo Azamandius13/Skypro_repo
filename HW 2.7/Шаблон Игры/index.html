@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="center">
+        <div class="welcomecontainer">
+            <h1 class="welcome">Добро пожаловать на мой сайт !</h1>
+            <p class="welcomedetils">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <strong>поехали</strong> и <strong>приступай</strong></p>
+            <button class="letsgobutton">Поехали!</button>
+        </div>
+    </header>
+    <section class="center gamsel">
+        <div class="gameselectcontainer">
+            <div class="Game1 gamehover"><h3 class="gamemargin">Игра 1</h3></div>
+            <div class="Game2 gamehover"><h3 class="gamemargin">Игра 2</h3></div>
+            <div class="Game3 gamehover"><h3 class="gamemargin">Игра 3</h3></div>
+        </div>
+    </section>
+
+    <section class="center gamsel">
+        <div class="sectiontwo">
+            <div class="sectiontwoleft">
+                <h1 class="h_sectiontwo">Времена года</h1>
+                <p class="p_sectiontwo">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <strong>поехали</strong> и <strong>приступай</strong></p>
+                <button class="letsgobutton letsgobutton_hide">Поехали!</button>
+                <button class="letsgobutton letsgobutton_mobile">Играть!</button>
+            </div>
+            <div class="sectionright">
+                <img class="smallimg" src="img/a2.png" alt="">
+            </div>
+        </div>  
+    </section>
+
+    <section class="center gamsel">
+        <div class="sectiontwo sectiontwo_reverse">
+            <div class="sectionright">
+                <img class="smallimg" src="img/a1.png" alt="">
+            </div>
+            <div class="sectiontwoleft">
+                <h1 class="h_sectiontwo">Запомни слова </h1>
+                <p class="p_sectiontwo">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить</p>
+                <button onclick="startnewgame()" class="letsgobutton">Играть</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="center gamselbottom">
+        <div class="playnowcontainer">
+            <h1 class="h_sectiontwo">Игра в загадки</h1>
+            <p class="p_playnowcontainer">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+            <button onclick="startnewgame()" class="letsgobutton">Играть</button>
+        </div>
+    </section>
+
+    <footer class="center gamsel footerflex">
+        <p class="allrights">Все права защищены</p>
+    </footer>
+
+    <script src="script.js"> </script>
+
+
+
+</body>
+</html>
